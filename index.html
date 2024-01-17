@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--Informazioni aggiuntive-->
+    <meta name="keywords" content="lista,toboolist,esercizio" />
+    <meta name="description" content="Ecco a voi la Toobolist" />
+    <meta name="author" content="Emanuele Studente Classe 100" />
+    <!--Collegamento del file HTML con il CSS-->
+    <link rel="stylesheet" href="./css/style.css" type="text/css" />
+    <!--Titolo e icona della pagina-->
+    <link rel="icon" href="./img/Logo.png" type="image/png" />
+    <title>Toobolist</title>
+  </head>
+
+  <body>
+    <!--Titolo della pagina-->
+    <header>
+      <img src="./img/Logo.png" alt="Logo Boolean" id="logo" />
+      <h1>Toboolist</h1>
+    </header>
+
+    <!--Contenuto principale della pagina-->
+    <main>
+      <!--Card-->
+      <div class="card">
+        <!--Bottoni-->
+        <div class="card-header">
+          <a href="#" class="btn">Add Task</a>
+          <a href="#" class="btn2">Add Section</a>
+        </div>
+
+        <!--Lista-->
+        <div class="card-body">
+          <ul>
+            <!--Prima Parte-->
+            <li>
+              <h3>&blacktriangledown; New Task</h3>
+              <!--Lista-->
+              <ul class="task-list">
+                <!--Item-->
+                <li class="task-item">
+                  <span class="task-status task-done">&check;</span>
+                  <span class="task-text">Quarterly Newsletter</span>
+                  <span class="badge bg-blue">Editorial</span>
+                </li>
+              </ul>
+            </li>
+          </ul>
+          <ul>
+            <!--Seconda Parte-->
+            <li>
+              <h3>&blacktriangledown; Today</h3>
+              <!--Lista-->
+              <ul class="task-list">
+                <!--Item-->
+                <li class="task-item">
+                  <span class="task-status task-done">&check;</span>
+                  <span class="task-text">Recruiting Blog Post</span>
+                  <span class="badge bg-blue">Editorial</span>
+                </li>
+                <!--Item-->
+                <li class="task-item">
+                  <span class="task-status task-done">&check;</span>
+                  <span class="task-text">Mobile App Launch</span>
+                  <span class="badge bg-purple">Q1-goals</span>
+                </li>
+                <!--Item-->
+                <li class="task-item">
+                  <span class="task-status task-undone">&cross;</span>
+                  <span class="task-text">Interview John H.</span>
+                  <span class="badge bg-green">Recruiting</span>
+                </li>
+                <!--Item-->
+                <li class="task-item">
+                  <span class="task-status task-done">&check;</span>
+                  <span class="task-text"
+                    >Summit update to mobile storefronts</span
+                  >
+                  <span class="badge bg-orange">Mobile</span>
+                </li>
+              </ul>
+            </li>
+          </ul>
+          <ul>
+            <!--Terza Parte-->
+            <li>
+              <h3>&blacktriangledown; Upcoming</h3>
+              <!--Lista-->
+              <ul class="task-list">
+                <!--Item-->
+                <li class="task-item">
+                  <span class="task-status task-undone">&cross;</span>
+                  <span class="task-text">Schedule Meeting with Alex</span>
+                  <span class="badge bg-green">Recruiting</span>
+                </li>
+                <!--Item-->
+                <li class="task-item">
+                  <span class="task-status task-done">&check;</span>
+                  <span class="task-text">Homepage refresh</span>
+                  <span class="badge bg-pink">Website</span>
+                </li>
+                <!--Item-->
+                <li class="task-item">
+                  <span class="task-status task-undone">&cross;</span>
+                  <span class="task-text">Onboard new Sales team members</span>
+                  <span class="badge bg-lightgreen">Sales</span>
+                </li>
+                <!--Item-->
+                <li class="task-item">
+                  <span class="task-status task-done">&check;</span>
+                  <span class="task-text">Review editorial character</span>
+                  <span class="badge bg-orange">Editorial</span>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>

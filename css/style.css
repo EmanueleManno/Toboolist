@@ -1,0 +1,180 @@
+/*CSS RESET*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*BODY*/
+body {
+    background-color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*HEADER*/
+header {
+    height: 100px;
+    background-color: white;
+    line-height: 100px;
+    padding-left: 20px;
+}
+
+/*LOGO*/
+#logo {
+    height: 50px;
+    vertical-align: middle;
+}
+
+/*TITOLO DELLA PAGINA*/
+h1 {
+    display: inline;
+    font-size: 50px;
+    font-weight: 800;
+    vertical-align: middle;
+}
+
+/*CARD*/
+.card {
+    background-color: white;
+    border-radius: 5px;
+    width: 50%;
+    margin: 30px auto;
+}
+
+/*CARD HEADER*/
+.card-header {
+    padding: 20px 20px;
+    border-bottom: 5px solid gray;
+    box-shadow: 1px 1px 3px dimgray,
+    -3px 3px 6px dimgray,
+    -3px -3px 6px dimgray,
+    3px -3px 6px dimgray;
+}
+
+/*CARD BODY*/
+.card-body {
+    padding: 20px 20px;
+    box-shadow: 3px 3px 6px dimgray,
+    -3px 3px 6px dimgray,
+    -3px -3px 6px dimgray,
+    3px -3px 6px dimgray;
+}
+
+/*BUTTONE1*/
+.btn {
+    font-size: 15px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: white;
+    background-color: lightskyblue;
+    border: 1px solid transparent;
+    text-decoration: none;
+    text-shadow: 1px 1px 1px black;
+}
+
+/*BUTTONE1 IN HOVER*/
+.btn:hover {
+    background-color: #002ead;
+    transition: 0.7s;
+}
+
+/*BOTTONE2*/
+.btn2 {
+    font-size: 15px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: gray;
+    background-color: white;
+    border: 1px solid gray;
+    text-decoration: none;
+    text-shadow: 1px 1px 1px black;
+}
+
+/*BUTTONE2 IN HOVER*/
+.btn2:hover {
+    background-color: lightslategray;
+    color: black;
+    transition: 0.7s;
+}
+
+/*LISTA*/
+ul {
+    list-style-type: none;
+}
+
+/*H3*/
+h3 {
+    margin-bottom: 20px;
+}
+
+/*TASK ITEM*/
+.task-item {
+    height: 40px;
+}
+
+/*TASK STATUS*/
+.task-status {
+    border-radius: 50px;
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+    font-size: 10px;
+    text-align: center;
+    line-height: 20px;
+    vertical-align: middle;
+    border: 2px solid currentColor;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px black;
+}
+
+/*TASK STATUS*/
+.task-status.task-done {
+    color: green;
+}
+
+.task-status.task-undone {
+    color: red;
+}
+
+/*TASK TEXT*/
+.task-text {
+    vertical-align: middle;
+}
+
+/*BADGE*/
+.badge{
+    border-radius: 8px;
+    color:white;
+    padding: 5px 10px;
+    font-size: 12px;
+    font-weight: bold;
+    vertical-align: middle;
+    background-color: grey;
+    box-shadow: 2px 2px 2px black;
+    text-shadow: 1px 1px 1px black;
+}
+
+/*COLORI*/
+.bg-purple {
+    background-color: purple;
+}
+
+.bg-green {
+    background-color: green;
+}
+
+.bg-orange {
+    background-color: orange;
+}
+
+.bg-lightgreen {
+    background-color: lightgreen;
+}
+
+.bg-pink {
+    background-color: pink;
+}
+
+.bg-blue {
+    background-color: blue;
+}
